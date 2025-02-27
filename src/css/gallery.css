@@ -9,4 +9,10 @@
 
 .gallery-item {
   flex-basis: calc((100% - 48px) / 3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: 250ms ease-in;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
 }
