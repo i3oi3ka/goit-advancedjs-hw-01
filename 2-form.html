@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task - 2</title>
-    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-DHCt33SD.css">
+    <script type="module" crossorigin src="/goit-advancedjs-hw-01/2-form.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-advancedjs-hw-01/assets/styles-vqyuirXY.js">
+    <link rel="stylesheet" crossorigin href="/goit-advancedjs-hw-01/assets/styles-Blmc_W4-.css">
   </head>
   <body>
     <header class="header">
@@ -38,6 +40,28 @@
         </h1>
         <a class="back-link" href="./index.html">Go back</a>
 
+      </div>
+      <div class="container form-container">
+        <form class="feedback-form" autocomplete="off">
+          <label class="feedback-form-label">
+            Email
+            <input
+              class="feedback-form-input"
+              name="email"
+              name="email"
+              autofocus
+            />
+          </label>
+          <label class="feedback-form-label">
+            Message
+            <textarea
+              class="feedback-form-input"
+              name="message"
+              rows="8"
+            ></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
       </div>
     </main>
 
